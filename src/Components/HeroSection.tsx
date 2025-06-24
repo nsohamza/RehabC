@@ -12,7 +12,7 @@ const HeroSection = () => {
 
      <div className=' w-3/4 relative h-[900px] top-15 '>
        <Image 
-       src={familyImage}
+       src = {familyImage}
        alt="Image of family" 
        fill
        />

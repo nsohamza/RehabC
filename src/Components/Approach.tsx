@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Approach = () => {
   return (
-    <section className="flex shadow-inner mt-20">
+    <section className="flex shadow-inner mt-60">
       <div className="flex-1 h-auto relative">
         <Image src={rehabImage} 
         alt="Image of rehab"
@@ -17,20 +17,20 @@ const Approach = () => {
           Expert help for you <br /> and your loved ones
         </h1>
         <p className="py-15 text-xl">
-          We understand that addiction isn’t who you are. It’s what you’re up against—physically, <br />
-          mentally, emotionally and spiritually. That’s why you will find us right there, at your side, <br />
+          We understand that addiction isn’t who you are. It’s what you’re up against—physically, 
+          mentally, emotionally and spiritually. That’s why you will find us right there, at your side, 
            with  everything we’ve got:
         </p>
         <div className=" flex justify-between text-xl ">
           <ul className="space-y-2.5 > *" >
-          <li>Counselors;</li>
-          <li>Medical Experts;</li>
-          <li>Therapists;</li>
+          <li>&#10003; Counselors;</li>
+          <li>&#10003; Medical Experts;</li>
+          <li>&#10003; Therapists;</li>
           </ul>
          <ul className="mr-40 space-y-2.5 > *">
-          <li>Religious Guides;</li>
-          <li>Support Mentors;</li>
-          <li>Wellness Coaches.</li>
+          <li>&#10003; Religious Guides;</li>
+          <li>&#10003; Support Mentors;</li>
+          <li>&#10003; Wellness Coaches.</li>
          </ul>
         </div>
 

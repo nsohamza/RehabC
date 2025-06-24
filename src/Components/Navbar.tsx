@@ -24,7 +24,7 @@ const Navbar = () => {
            </li>
             ))}  
         </ul>
-        <button className='bg-[#385f71] hover:bg-[#ffae73] rounded-3xl px-8 py-3 '> Get Started</button>
+        <button className='bg-[#385f71] hover:bg-[#ffae73] rounded-3xl px-8 py-3 text-white'> Get Started</button>
         </div>
         </section>
     
