@@ -4,7 +4,7 @@ import familyImage from '@/assets/image.jpg'
 
 const HeroSection = () => {
   return (
-    <section className=' bg-[#cbe2ee] flex justify-between justify-items-center h-full shadow-lg' >
+    <section className=' bg-gradient-to-b from-blue-200 to-orange-200 flex justify-between justify-items-center h-full shadow-lg ' >
      <div className=' w-1/2 ml-8 mt-12 shadow-md'>
         <p className='mb-4 text-xl uppercase tracking-wider' >we´re here to help you</p>
         <h1 className='text-8xl font-semibold leading-tight capitalize ml-10'>pick yourself <br/>back up - <br/> you´ve got this</h1>

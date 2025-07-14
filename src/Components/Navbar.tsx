@@ -13,10 +13,10 @@ const Navbar = () => {
     ]
 
   return (
-    <nav className='bg-[#cbe2ee] py-8 '>
-        <section className='flex justify-between items-center'>
+    <nav className='bg-blue-200 py-8' >
+        <section className='flex flex-col sm:flex-row sm:justify-between sm:items-center'>
         <div className='ml-20 capitalize text-3xl font-mono '>Rehab Clinic </div>
-        <div className='flex items-center space-x-4 mr-18 text-lg font-bold'>
+        <div className='flex items-center space-x-4 mr-18 text-lg font-bold '>
           <ul className='flex space-x-10'>
             {navItems.map((item) => (
              <li key={item.id}>

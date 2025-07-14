@@ -8,6 +8,8 @@ import Programs from '@/Components/Programs'
 import React from 'react'
 import Plans from '@/Components/Plans'
 import Resource from '@/Components/Resource'
+import Footer from '@/Components/Footer'
+import Contact from '@/Components/Contact'
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
       <Programs/>
       <Plans/>
       <Resource/>
+      <Contact/>
+      <Footer/>
    
     </div>
   )

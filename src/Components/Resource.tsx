@@ -4,9 +4,9 @@ import familyImage from "@/assets/image.jpg";
 
 const Resource = () => {
   return (
-    <section className="h-screen mt-10 text-black">
-      <h1 className="font-normal text-6xl capitalize text-center">
-        Resources and Inspiration
+    <section className="h-svh mt-10 text-black ">
+      <h1 className="font-normal text-7xl capitalize text-center">
+        Resources & Inspiration
       </h1>
 
       <div className="flex justify-center mt-35 space-x-6" >
@@ -27,7 +27,7 @@ const Resource = () => {
           </div>
         </div>
  
-        <div className=" bg-[#DEC7B6] px-8 py-2 w-[400px] relative shadow-2xl">
+        <div className=" bg-gradient-to-b from-blue-200 to-orange-300 px-8 py-2 w-[400px] relative shadow-2xl">
           <Image 
           src={familyImage} 
           alt="Image of family" 
@@ -60,18 +60,6 @@ const Resource = () => {
         </div>
         
       </div>
-
-      <div className="text-center mt-40">
-        <h2 className="text-xl uppercase font-semibold text-[#375f71]">Take the next step </h2>
-        <h1 className="text-7xl capitalize space-y-10">Contact us when <br />you are ready </h1>
-        <button>call 24/7: 123-456-7890</button>
-      </div>
-
-
-
-
-
-
     </section>
   );
 };
